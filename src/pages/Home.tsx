@@ -225,28 +225,29 @@ const ServicesPreview = () => (
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {[
+        [
         {
-          title: "Solo Adventures",
-          slug: "solo-adventures",
-          desc: "Curated solo itineraries that connect you with authentic local experiences and fellow travelers.",
+          title: "Customized Holidays",
+          slug: "service-1",
+          desc: "Curated solo and family itineraries that connect you with authentic local experiences across the islands.",
           image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Honeymoons + Romance",
-          slug: "romance",
-          desc: "Dreamy getaways with candlelight dinners, private beaches, and handpicked boutique stays.",
+          title: "Luxury Resorts",
+          slug: "service-2",
+          desc: "Exclusive bookings for premium beachfront resorts in Havelock and Neil bringing you ultimate comfort.",
           image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Family + Group",
-          slug: "family-group",
-          desc: "Kid-friendly activities, multi-room stays, and seamlessly coordinated group logistics.",
+          title: "Cellular Jail Tours",
+          slug: "service-3",
+          desc: "Immerse yourself in history with guided tours to the Cellular Jail and the famous Light & Sound show.",
           image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80"
         },
         {
-          title: "Corporate + MICE",
-          slug: "weddings-events",
-          desc: "GST invoicing, dedicated fleet managers, and end-to-end corporate event coordination.",
+          title: "Island Hopping",
+          slug: "service-4",
+          desc: "Seamlessly coordinated trips across Ross Island, North Bay, and Baratang with our private fleet.",
           image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
         }
       ].map((service, i) => (
@@ -796,10 +797,8 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl leading-tight mb-8">
             Explore. Experience. Escape.
           </h2>
-          <p className="text-lg text-ink/70 leading-relaxed">
-            At Explorateur, we believe travel should be more than just a trip — it should be a soulful experience.
-            From our first consultation to the moment you return home, we are your personal advocate for stress-free,
-            unforgettable vacations. Your journey is our responsibility.
+          <p className="text-lg text-ink/70 leading-relaxed font-medium">
+            Welcome to Experience Andamans, the highest-rated local tour operator. We provide customized Andaman holidays, luxury resorts, cellular jail tours, and seamless island hopping experiences.
           </p>
           <div className="mt-12">
             <Link to="/about" className="btn-outline">Learn Our Story</Link>
