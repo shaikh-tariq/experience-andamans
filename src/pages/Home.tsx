@@ -167,7 +167,7 @@ const WhyChooseUs = () => (
           { icon: <Heart className="w-8 h-8" />, title: "Bespoke Family Travel", desc: "Spacious family suites, kid-friendly activities, and carefully paced itineraries for all age groups." },
           { icon: <Clock className="w-8 h-8" />, title: "Private Island Hopping", desc: "Avoid the crowds with our privately chartered boat experiences to remote and untouched Andaman islands." },
           { icon: <Award className="w-8 h-8" />, title: "Highest Rated Service", desc: "Ranked as the top tour operator in the Andaman and Nicobar tourism sector by thousands of happy travelers." }
-        ]].map((item, i) => (
+        ].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
